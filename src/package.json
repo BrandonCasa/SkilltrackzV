@@ -1,0 +1,29 @@
+{
+  "name": "skilltrackzv",
+  "productName": "SkilltrackzV",
+  "version": "2.3.0",
+  "description": "An application to track your skill rating in Overwatch.",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Brandon Casamichana",
+    "email": "brandoncasawork8@gmail.com",
+    "url": "https://skilltrackzv.com/"
+  },
+  "contributors": [
+    {
+      "name": "Electron React Boilerplate Maintainers",
+      "email": "electronreactboilerplate@gmail.com",
+      "url": "https://electron-react-boilerplate.js.org"
+    }
+  ],
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chart.js": "^2.9.30",
+    "@types/websocket": "^1.0.1"
+  }
+}

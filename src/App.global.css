@@ -1,0 +1,11 @@
+.Hidden {
+  visibility: hidden;
+  position: fixed;
+}
+
+.Chart {
+  position: absolute;
+  top: 56px;
+  width: 400px;
+  height: 400px;
+}
