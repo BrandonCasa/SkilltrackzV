@@ -240,8 +240,10 @@
     "yarn-deduplicate": "^3.1.0"
   },
   "dependencies": {
+    "@popperjs/core": "^2.8.2",
     "@tensorflow/tfjs": "^2.8.6",
     "@tensorflow/tfjs-node": "^2.8.6",
+    "aws-sdk": "^2.848.0",
     "bootstrap": "^4.6.0",
     "chart.js": "^2.9.4",
     "custom-electron-titlebar": "^3.2.6",
@@ -252,14 +254,15 @@
     "flv.js": "^1.5.0",
     "history": "^5.0.0",
     "image-data-uri": "^2.0.1",
+    "jquery": "^3.5.1",
     "node-media-server": "^2.2.4",
+    "node-pre-gyp": "^0.17.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "regenerator-runtime": "^0.13.5",
-    "source-map-support": "^0.5.19",
-    "websocket": "^1.0.33"
+    "source-map-support": "^0.5.19"
   },
   "devEngines": {
     "node": ">=10.x",
@@ -292,7 +295,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npx lint-staged"
     }
   }
 }
