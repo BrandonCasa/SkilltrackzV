@@ -4,8 +4,7 @@
 }
 
 .Chart {
-  position: absolute;
-  top: 56px;
+  position: inherit;
   width: 400px;
   height: 400px;
 }
